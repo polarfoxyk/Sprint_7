@@ -5,15 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ff60a3-d9ab-4a47-b578-b09dc2f8c117" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Courier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Courier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Courier_noPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Courier_noPass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_List_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_List_Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2af2b95c-acc5-4cc8-bfe1-7303d9104a55-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/325b5922-4169-4cf4-9e5c-95fd15102c37-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6338b870-d98e-403a-80cb-fed177d9f938-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7628eb27-9a4e-480d-bcc4-fe4113bc55d4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/88fc0060-5e12-444a-9621-0939db4b77ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/951e9132-5495-45af-957e-a48ba89fd96e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/95ea78f0-202d-454e-8b61-ebeb02018e07-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9dc31e0b-135e-44a4-b518-c7e9b632613f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c032d96d-803d-4176-93ce-7e625a4bf4b0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f26f8dfe-a9ac-42d1-9f3b-fc5bf864d3ff-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fb51f060-2dee-4001-b299-1d200e2b2226-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,17 +58,85 @@
     </option>
   </component>
   <component name="ProjectId" id="2IlAKTPCZwRvQ0d1FoNhQ3D3htj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+      <command value="mvn allure:serve" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.java in Sprint_7">
+    <configuration name="Test_List_Orders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_List_Orders" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_Login" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Login_noPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_Login_noPass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Orders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_Orders" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in Sprint_7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in Sprint_7" />
+        <item itemvalue="JUnit.Test_List_Orders" />
+        <item itemvalue="JUnit.Test_Orders" />
+        <item itemvalue="JUnit.Test_Login" />
+        <item itemvalue="JUnit.Test_Login_noPass" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,5 +147,11 @@
       <updated>1670745733838</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Sprint_7$Test_Courier.ic" NAME="Test_Courier Coverage Results" MODIFIED="1670876738977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
