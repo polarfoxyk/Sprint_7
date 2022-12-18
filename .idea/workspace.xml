@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85ff60a3-d9ab-4a47-b578-b09dc2f8c117" name="Changes" comment="">
+    <list default="true" id="85ff60a3-d9ab-4a47-b578-b09dc2f8c117" name="Changes" comment="message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Courier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Courier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Courier_noPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Courier_noPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_List_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_List_Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2af2b95c-acc5-4cc8-bfe1-7303d9104a55-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/325b5922-4169-4cf4-9e5c-95fd15102c37-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6338b870-d98e-403a-80cb-fed177d9f938-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7628eb27-9a4e-480d-bcc4-fe4113bc55d4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/88fc0060-5e12-444a-9621-0939db4b77ea-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/951e9132-5495-45af-957e-a48ba89fd96e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/95ea78f0-202d-454e-8b61-ebeb02018e07-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/9dc31e0b-135e-44a4-b518-c7e9b632613f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c032d96d-803d-4176-93ce-7e625a4bf4b0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f26f8dfe-a9ac-42d1-9f3b-fc5bf864d3ff-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/fb51f060-2dee-4001-b299-1d200e2b2226-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCourier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Courier_noPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCourierNoPass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_List_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestListOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOrders.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +31,25 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="polarfoxyk" />
+        <option name="repository" value="Sprint_7" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="52db5181-7b10-4bf1-b362-b137fba51c2d" />
+        <option name="url" value="https://github.com/polarfoxyk/Sprint_7.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,19 +87,28 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.java in Sprint_7">
-    <configuration name="Test_List_Orders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestListOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_List_Orders" />
+      <option name="MAIN_CLASS_NAME" value="TestListOrders" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_Login" />
+      <option name="MAIN_CLASS_NAME" value="TestLogin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOrders" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,15 +118,6 @@
       <module name="Sprint_7" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test_Login_noPass" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_Orders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_Orders" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,9 +134,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.java in Sprint_7" />
-        <item itemvalue="JUnit.Test_List_Orders" />
-        <item itemvalue="JUnit.Test_Orders" />
-        <item itemvalue="JUnit.Test_Login" />
+        <item itemvalue="JUnit.TestOrders" />
+        <item itemvalue="JUnit.TestListOrders" />
+        <item itemvalue="JUnit.TestLogin" />
         <item itemvalue="JUnit.Test_Login_noPass" />
       </list>
     </recent_temporary>
@@ -146,10 +150,20 @@
       <option name="presentableId" value="Default" />
       <updated>1670745733838</updated>
     </task>
+    <task id="LOCAL-00001" summary="message">
+      <created>1671088223354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671088223354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="message" />
+    <option name="LAST_COMMIT_MESSAGE" value="message" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Sprint_7$Test_Courier.ic" NAME="Test_Courier Coverage Results" MODIFIED="1670876738977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

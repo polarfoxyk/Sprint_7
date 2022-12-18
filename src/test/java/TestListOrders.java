@@ -7,7 +7,7 @@ import io.restassured.response.Response;
 
 import static org.hamcrest.Matchers.notNullValue;
 
-public class Test_List_Orders {
+public class TestListOrders {
     @Before
     public void setUp() {
         RestAssured.baseURI = "http://qa-scooter.praktikum-services.ru";

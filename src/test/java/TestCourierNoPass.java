@@ -5,7 +5,7 @@ import org.junit.Test;
 import io.restassured.response.Response;
 import static org.hamcrest.Matchers.*;
 
-public class Test_Courier_noPass {
+public class TestCourierNoPass {
     Courier courier_two = new Courier("newLogin");
 
     @Before

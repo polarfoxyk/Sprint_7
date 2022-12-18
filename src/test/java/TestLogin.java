@@ -7,7 +7,7 @@ import io.restassured.response.Response;
 
 import static org.hamcrest.Matchers.*;
 
-public class Test_Login {
+public class TestLogin {
 
     Courier courier = new Courier("login123321", "pass");
 
@@ -158,7 +158,7 @@ public class Test_Login {
 
 
     @After
-    public void Clean(){
+    public void clean(){
         int id = RestAssured.given()
                 .header("Content-type", "application/json")
                 .and()
