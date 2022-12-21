@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85ff60a3-d9ab-4a47-b578-b09dc2f8c117" name="Changes" comment="message">
+    <list default="true" id="85ff60a3-d9ab-4a47-b578-b09dc2f8c117" name="Changes" comment="for comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCourier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Courier_noPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCourierNoPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_List_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestListOrders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +65,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Polarfox/IdeaProjects/Sprint_7",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean test" />
@@ -157,13 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671088223354</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="for comments">
+      <created>1671378940107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671378940107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="message" />
-    <option name="LAST_COMMIT_MESSAGE" value="message" />
+    <MESSAGE value="for comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="for comments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Sprint_7$Test_Courier.ic" NAME="Test_Courier Coverage Results" MODIFIED="1670876738977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
